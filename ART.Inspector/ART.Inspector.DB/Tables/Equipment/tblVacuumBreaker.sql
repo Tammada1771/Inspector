@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[tblVacuumBreaker]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [InspectionId] UNIQUEIDENTIFIER NOT NULL
+)

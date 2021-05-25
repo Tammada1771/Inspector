@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[tblMxOrder]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY
+)

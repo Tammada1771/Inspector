@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[tblTransformer]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [InspectionId] UNIQUEIDENTIFIER NOT NULL
+)

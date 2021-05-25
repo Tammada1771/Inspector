@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[tblInspection]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [StartDate] DATETIME NOT NULL, 
+    [EndDate] DATETIME NOT NULL, 
+    [Duration] DATETIME NOT NULL, 
+    [StationId] UNIQUEIDENTIFIER NOT NULL, 
+    [EmployeeId] VARCHAR(10) NOT NULL, 
+    [Type] VARCHAR(50) NOT NULL
+)

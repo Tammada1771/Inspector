@@ -56,9 +56,36 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="StoredProcedures" />
+    <Folder Include="ForeignKeys" />
+    <Folder Include="PreDeployment" />
+    <Folder Include="PostDeployment" />
+    <Folder Include="Tables\Equipment" />
+    <Folder Include="Tables\Employee" />
+    <Folder Include="Tables\Station" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="tblUser.sql" />
-    <Build Include="tblEquipmentNamePlate.sql" />
+    <Build Include="Tables\Equipment\tblBuilding.sql" />
+    <Build Include="Tables\Equipment\tblEquipmentNamePlate.sql" />
+    <Build Include="Tables\Equipment\tblCharger.sql" />
+    <Build Include="Tables\Equipment\tblEquipmentType.sql" />
+    <Build Include="Tables\Equipment\tblIndoorBreaker.sql" />
+    <Build Include="Tables\Equipment\tblOilBreaker.sql" />
+    <Build Include="Tables\Equipment\tblTransformer.sql" />
+    <Build Include="Tables\Equipment\tblVacuumBreaker.sql" />
+    <Build Include="Tables\Equipment\tblYard.sql" />
+    <Build Include="Tables\Employee\tblJobtitle.sql" />
+    <Build Include="Tables\Employee\tblUser.sql" />
+    <Build Include="Tables\Employee\tblWorkGroup.sql" />
+    <Build Include="Tables\Station\tblAlert.sql" />
+    <Build Include="Tables\Station\tblInspection.sql" />
+    <Build Include="Tables\Station\tblLocation.sql" />
+    <Build Include="Tables\Station\tblMxOrder.sql" />
+    <Build Include="Tables\Station\tblRegion.sql" />
+    <Build Include="Tables\Station\tblStations.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="ART.Inspector.DB.refactorlog" />
   </ItemGroup>
 </Project>
