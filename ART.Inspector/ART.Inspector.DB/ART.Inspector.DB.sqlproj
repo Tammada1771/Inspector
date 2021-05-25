@@ -88,4 +88,7 @@
   <ItemGroup>
     <RefactorLog Include="ART.Inspector.DB.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ART.Inspector.DB.publish.xml" />
+  </ItemGroup>
 </Project>
