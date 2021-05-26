@@ -84,6 +84,7 @@
     <Build Include="Tables\Station\tblMxOrder.sql" />
     <Build Include="Tables\Station\tblRegion.sql" />
     <Build Include="Tables\Station\tblStations.sql" />
+    <Build Include="Tables\Station\tblInspectionType.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ART.Inspector.DB.refactorlog" />

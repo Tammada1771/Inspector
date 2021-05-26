@@ -6,5 +6,5 @@
     [Duration] DATETIME NOT NULL, 
     [StationId] UNIQUEIDENTIFIER NOT NULL, 
     [EmployeeId] VARCHAR(10) NOT NULL, 
-    [Type] VARCHAR(50) NOT NULL
+    [InspectionTypeId] UNIQUEIDENTIFIER NOT NULL
 )
