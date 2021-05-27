@@ -1,13 +1,13 @@
 ﻿BEGIN
 
 	DECLARE @LocationId uniqueidentifier;
-	SET @LocationId = (Select Id from tblLocation where Description = 'WISC')
+	SELECT @LocationId = Id from tblLocation where Description = 'WISC'
 
 	INSERT INTO dbo.tblWorkGroup (Id, LocationId, Description)
 	VALUES
 	(NEWID(), @LocationId, 'Substation')
 
-	Set @LocationId = (Select Id from tblLocation where Description = 'WBSC')
+	SELECT @LocationId = Id from tblLocation where Description = 'WBSC'
 
 	INSERT INTO dbo.tblWorkGroup (Id, LocationId, Description)
 	VALUES

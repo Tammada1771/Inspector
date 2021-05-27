@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ART.Inspector.DB", "ART.Inspector.DB\ART.Inspector.DB.sqlproj", "{EE485017-F38D-490B-A137-8751243AB732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ART.Inspector.BL.Models", "ART.Inspector.BL.Models\ART.Inspector.BL.Models.csproj", "{0EEFE74F-F022-457C-9843-28572D3AC9E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ART.Inspector.BL.Models", "ART.Inspector.BL.Models\ART.Inspector.BL.Models.csproj", "{0EEFE74F-F022-457C-9843-28572D3AC9E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ART.Inspector.BL.Test", "ART.Inspector.BL.Test\ART.Inspector.BL.Test.csproj", "{DBCF25C4-00DB-4334-9FD6-CD3CD54CDFD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ART.Inspector.BL.Test", "ART.Inspector.BL.Test\ART.Inspector.BL.Test.csproj", "{DBCF25C4-00DB-4334-9FD6-CD3CD54CDFD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ART.Inspector.UI", "ART.Inspector.UI\ART.Inspector.UI.csproj", "{AD2A7D18-2DC0-4DE0-B1D1-9EF856D815DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ART.Inspector.UI", "ART.Inspector.UI\ART.Inspector.UI.csproj", "{AD2A7D18-2DC0-4DE0-B1D1-9EF856D815DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ART.Inspector.BL", "ART.Inspector.BL\ART.Inspector.BL.csproj", "{25F77157-4951-40F0-8834-A7A53B72DF23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ART.Inspector.BL", "ART.Inspector.BL\ART.Inspector.BL.csproj", "{25F77157-4951-40F0-8834-A7A53B72DF23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

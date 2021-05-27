@@ -3,16 +3,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>ART.Inspector.DB</Name>
+    <Name>ART.Inspector.DBO</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{ee485017-f38d-490b-a137-8751243ab732}</ProjectGuid>
+    <ProjectGuid>{780c0544-21c4-4974-b49e-f5f5dd4f96f0}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>ART.Inspector.DB</RootNamespace>
-    <AssemblyName>ART.Inspector.DB</AssemblyName>
+    <RootNamespace>ART.Inspector.DBO</RootNamespace>
+    <AssemblyName>ART.Inspector.DBO</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -57,53 +57,44 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
-    <Folder Include="StoredProcedures" />
-    <Folder Include="ForeignKeys" />
+    <Folder Include="Tables\Employee" />
+    <Folder Include="Tables\Equipment" />
+    <Folder Include="Tables\Station" />
     <Folder Include="PreDeployment" />
     <Folder Include="PostDeployment" />
-    <Folder Include="Tables\Equipment" />
-    <Folder Include="Tables\Employee" />
-    <Folder Include="Tables\Station" />
     <Folder Include="PostDeployment\DefaultData" />
   </ItemGroup>
   <ItemGroup>
+    <Build Include="Tables\Employee\tblJobTitle.sql" />
+    <Build Include="Tables\Employee\tblUser.sql" />
+    <Build Include="Tables\Employee\tblWorkGroup.sql" />
+    <Build Include="Tables\Equipment\tblBatteryEquip.sql" />
     <Build Include="Tables\Equipment\tblBuilding.sql" />
-    <Build Include="Tables\Equipment\tblEquipmentNamePlate.sql" />
     <Build Include="Tables\Equipment\tblCharger.sql" />
+    <Build Include="Tables\Equipment\tblEquipmentNamePlate.sql" />
     <Build Include="Tables\Equipment\tblEquipmentType.sql" />
     <Build Include="Tables\Equipment\tblIndoorBreaker.sql" />
     <Build Include="Tables\Equipment\tblOilBreaker.sql" />
+    <Build Include="Tables\Equipment\tblSF6GasBreaker.sql" />
+    <Build Include="Tables\Equipment\tblStationEquip.sql" />
     <Build Include="Tables\Equipment\tblTransformer.sql" />
     <Build Include="Tables\Equipment\tblVacBreakerOutdoor.sql" />
     <Build Include="Tables\Equipment\tblYard.sql" />
     <Build Include="Tables\Station\tblAlert.sql" />
     <Build Include="Tables\Station\tblInspection.sql" />
+    <Build Include="Tables\Station\tblInspectionType.sql" />
     <Build Include="Tables\Station\tblLocation.sql" />
     <Build Include="Tables\Station\tblMxOrder.sql" />
     <Build Include="Tables\Station\tblRegion.sql" />
     <Build Include="Tables\Station\tblStations.sql" />
-    <Build Include="Tables\Station\tblInspectionType.sql" />
-    <Build Include="Tables\Equipment\tblStationEquip.sql" />
-    <Build Include="Tables\Equipment\tblBatteryEquip.sql" />
-    <Build Include="Tables\Equipment\tblSF6GasBreaker.sql" />
-    <Build Include="Tables\Employee\tblJobTitle.sql" />
-    <Build Include="Tables\Employee\tblUser.sql" />
-    <Build Include="Tables\Employee\tblWorkGroup.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="ART.Inspector.DB.refactorlog" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ART.Inspector.DB.publish.xml" />
-    <None Include="PostDeployment\DefaultData\JobTitles.sql" />
-    <None Include="PostDeployment\DefaultData\Users.sql" />
-    <None Include="PostDeployment\DefaultData\Locations.sql" />
-    <None Include="PostDeployment\DefaultData\WorkGroups.sql" />
-  </ItemGroup>
-  <ItemGroup>
     <PreDeploy Include="PreDeployment\Script.PreDeployment1.sql" />
+    <None Include="PostDeployment\DefaultData\JobTitles.sql" />
+    <None Include="PostDeployment\DefaultData\Locations.sql" />
+    <None Include="PostDeployment\DefaultData\Users.sql" />
+    <None Include="PostDeployment\DefaultData\WorkGroups.sql" />
+    <PostDeploy Include="PostDeployment\Script.PostDeployment1.sql" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="PostDeployment\Script.PostDeployment1.sql" />
+    <None Include="ART.Inspector.DBO.publish.xml" />
   </ItemGroup>
 </Project>

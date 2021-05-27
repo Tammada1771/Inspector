@@ -1,0 +1,28 @@
+﻿CREATE TABLE [dbo].[tblBuilding]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [InspectionId] UNIQUEIDENTIFIER NOT NULL, 
+    [GroundIntact] BIT NULL, 
+    [PhoneLineClear] BIT NULL, 
+    [LightsWorking] BIT NULL, 
+    [OperatingInsruct] BIT NULL, 
+    [OneLineDiagram] BIT NULL, 
+    [SpareFuseQuantOk] BIT NULL, 
+    [StationInfo] BIT NULL, 
+    [ACDCPanelGoodcond] BIT NULL, 
+    [ACDCFlagFree] BIT NULL, 
+    [RelayPanelGoodCond] BIT NULL, 
+    [IndicateLightOnSrvcPanel] BIT NULL, 
+    [HvacFanOpCorrect] BIT NULL, 
+    [ToolEquipGoodCond] BIT NULL, 
+    [FireExtCharged] BIT NULL, 
+    [FireExtTagSign] BIT NULL, 
+    [ExitLightOp] BIT NULL, 
+    [ThermSetCool75Heat55] BIT NULL, 
+    [SiliconWipeStock] BIT NULL, 
+    [OperatingInstructDate] DATETIME NULL, 
+    [FloorCleanGoodCond] BIT NULL, 
+    [FreeRodent] BIT NULL, 
+    [OverallEquipCond] VARCHAR(50) NULL, 
+    [Comment] VARCHAR(MAX) NULL
+)

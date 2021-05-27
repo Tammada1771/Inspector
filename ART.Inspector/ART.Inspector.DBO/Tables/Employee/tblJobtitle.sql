@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[tblJobtitle]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [WorkGroupId] UNIQUEIDENTIFIER NOT NULL, 
+    [Description] VARCHAR(50) NOT NULL
+)

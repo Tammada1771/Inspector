@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[tblWorkGroup]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Description] VARCHAR(100) NOT NULL, 
+    [LocationId] UNIQUEIDENTIFIER NOT NULL
+)

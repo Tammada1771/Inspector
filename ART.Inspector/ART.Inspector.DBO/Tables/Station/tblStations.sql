@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[tblStation]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Name] VARCHAR(50) NOT NULL, 
+    [RegionId] UNIQUEIDENTIFIER NOT NULL, 
+    [NumOfInspection] INT NOT NULL, 
+    [Company] VARCHAR(50) NOT NULL, 
+    [Size] VARCHAR(50) NOT NULL
+)
