@@ -9,5 +9,5 @@
     [Phone] NCHAR(10) NOT NULL, 
     [LocationId] UNIQUEIDENTIFIER NOT NULL, 
     [JobTitleId] UNIQUEIDENTIFIER NOT NULL, 
-    [SupervisorId] UNIQUEIDENTIFIER NOT NULL 
+    [SupervisorId] VARCHAR(10) NOT NULL 
 )

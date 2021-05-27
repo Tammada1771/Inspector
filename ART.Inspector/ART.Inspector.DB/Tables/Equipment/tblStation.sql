@@ -1,4 +1,0 @@
-﻿CREATE TABLE [dbo].[tblStation]
-(
-	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY
-)

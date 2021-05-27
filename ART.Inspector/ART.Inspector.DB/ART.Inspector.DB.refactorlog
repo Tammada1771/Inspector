@@ -77,4 +77,81 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="InspectionTypeId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="4c1fb7e8-be43-4bba-b4db-2afe435f7c17" ChangeDateTime="05/26/2021 22:47:06">
+    <Property Name="ElementName" Value="[dbo].[tblBuilding].[OperatingInsructPresent]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblBuilding]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OperatingInsruct" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="351570a5-482e-4afd-a186-a45d7c8f1bc2" ChangeDateTime="05/26/2021 22:50:36">
+    <Property Name="ElementName" Value="[dbo].[tblBuilding].[FireExtinguisherCharged]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblBuilding]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FireExtCharged" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ce1eefe0-ee26-494a-b1b1-8c5f10a49ff9" ChangeDateTime="05/26/2021 22:50:46">
+    <Property Name="ElementName" Value="[dbo].[tblBuilding].[FireExt]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblBuilding]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FireExtTagSign" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="41c11646-7a24-4e49-a824-7ac7bfbcd853" ChangeDateTime="05/26/2021 22:52:10">
+    <Property Name="ElementName" Value="[dbo].[tblBuilding].[OperatingInstrucDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblBuilding]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OperatingInstructDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="27b61725-e50c-4b4a-aade-74c546b1bbc7" ChangeDateTime="05/26/2021 22:58:42">
+    <Property Name="ElementName" Value="[dbo].[tblSF6GasBreaker].[OperatorGoodcond]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblSF6GasBreaker]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OperatorGoodCond" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1a705b7a-5319-4b03-b04c-ba4f643d3bca" ChangeDateTime="05/26/2021 23:08:01">
+    <Property Name="ElementName" Value="[dbo].[tblTransformer].[TankPSI]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblTransformer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MainTankPress" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d7c170b4-06e8-4543-a2fd-e4cb204ceb5b" ChangeDateTime="05/26/2021 23:08:38">
+    <Property Name="ElementName" Value="[dbo].[tblTransformer].[BottlePress]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblTransformer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="N2BottlePress" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0bddeb27-00e9-4280-9c19-ac9f295f43fe" ChangeDateTime="05/26/2021 23:08:48">
+    <Property Name="ElementName" Value="[dbo].[tblTransformer].[Bottle]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblTransformer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="N2SysGoodCond" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0b649cb4-edaf-44cf-a120-f355f86f40b5" ChangeDateTime="05/26/2021 23:11:12">
+    <Property Name="ElementName" Value="[dbo].[tblTransformer].[Cabclean]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblTransformer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CabClean" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e39f3672-ef55-4dd1-89b8-a1c4dafae4e9" ChangeDateTime="05/26/2021 23:16:49">
+    <Property Name="ElementName" Value="[dbo].[tblVacuumBreaker].[ConnectionsGood]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblVacuumBreaker]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ConnectionsGoodCond" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="83843d80-2b76-42fa-8533-b35f91983459" ChangeDateTime="05/26/2021 23:17:09">
+    <Property Name="ElementName" Value="[dbo].[tblVacuumBreaker].[c]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblVacuumBreaker]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AnimalProtectGoodCond" />
+  </Operation>
 </Operations>

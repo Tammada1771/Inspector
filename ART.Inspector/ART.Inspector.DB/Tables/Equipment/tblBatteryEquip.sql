@@ -1,10 +1,10 @@
-﻿CREATE TABLE [dbo].[tblCharger]
+﻿CREATE TABLE [dbo].[tblBattery]
 (
 	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
     [InspectionId] UNIQUEIDENTIFIER NOT NULL, 
-    [ChargerVolt] DECIMAL NULL, 
-    [ChargerAmp] DECIMAL NULL, 
-    [NoGroundPres] BIT NULL, 
+    [CellElectLevel] VARCHAR(50) NULL, 
+    [CellFreeLeaks] BIT NULL, 
+    [PostStrapFreeCorro] BIT NULL, 
     [OverallEquipCond] VARCHAR(50) NULL, 
     [Comment] VARCHAR(MAX) NULL
 )

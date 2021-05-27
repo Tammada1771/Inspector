@@ -64,6 +64,7 @@
     <Folder Include="Tables\Equipment" />
     <Folder Include="Tables\Employee" />
     <Folder Include="Tables\Station" />
+    <Folder Include="PostDeployment\DefaultData" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Equipment\tblBuilding.sql" />
@@ -85,8 +86,8 @@
     <Build Include="Tables\Station\tblRegion.sql" />
     <Build Include="Tables\Station\tblStations.sql" />
     <Build Include="Tables\Station\tblInspectionType.sql" />
-    <Build Include="Tables\Equipment\tblStation.sql" />
-    <Build Include="Tables\Equipment\tblBattery.sql" />
+    <Build Include="Tables\Equipment\tblStationEquip.sql" />
+    <Build Include="Tables\Equipment\tblBatteryEquip.sql" />
     <Build Include="Tables\Equipment\tblSF6GasBreaker.sql" />
   </ItemGroup>
   <ItemGroup>
@@ -94,5 +95,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ART.Inspector.DB.publish.xml" />
+    <None Include="PostDeployment\DefaultData\Users.sql" />
+    <None Include="PostDeployment\DefaultData\Locations.sql" />
+    <None Include="PostDeployment\DefaultData\WorkGroups.sql" />
+    <None Include="PostDeployment\DefaultData\JobTitles.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="PreDeployment\Script.PreDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="PostDeployment\Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>
